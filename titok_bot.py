@@ -31,8 +31,8 @@ def interagir(imagem,texto=None):
         
 def bot():
     #1) Abrir o navegador(no meu caso é o Brave) ,abrir uma aba nova e entrar no tiktok.com
-    interagir('navegador.png')
-    interagir('aba.png','tiktok.com')
+    interagir('imagens/navegador.png')
+    interagir('imagens/aba.png','tiktok.com')
     sleep(22)
     #2)manter o loop rodando para ver todos os vídeos
     try:
@@ -42,8 +42,8 @@ def bot():
             click(x=874, y=501, interval=1)#essa posição pode mudar dependendo do monitor
             sleep(5)
             comentario_aleatorio = random.choice(comentarios_tiktok)
-            interagir('comentar.png', texto=comentario_aleatorio)
-            interagir('sair.png')
+            interagir('imagens/comentar.png', texto=comentario_aleatorio)
+            interagir('imagens/sair.png')
             sleep(5)
             press('down')
     except KeyboardInterrupt:
