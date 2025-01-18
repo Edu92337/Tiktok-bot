@@ -1,12 +1,13 @@
-# TikTok Bot com PyAutoGUI
+# TikTok Bot with PyAutoGUI
 
-Este projeto é um bot automatizado que interage com o TikTok usando a biblioteca PyAutoGUI.
+This project is an automated bot that interacts with TikTok using the PyAutoGUI library.
 
-## Funcionalidades
-- Curtir vídeos automaticamente.
-- Comentar em vídeos com mensagens aleatórias.
-- Navegar pelo feed do TikTok.
-## Bibliotecas Utilizadas
-- **PyAutoGUI**: Para automação do mouse e teclado.
-- **OpenCV (opencv-python)**: Para reconhecimento de imagem com confiança.
-- **Random**: Biblioteca padrão do Python para escolher comentários aleatórios.
+## Features
+- Like videos automatically.
+- Comment on videos with random messages.
+- Navigate through the TikTok feed.
+
+## Libraries Used
+- **PyAutoGUI**: For mouse and keyboard automation.
+- **OpenCV (opencv-python)**: For image recognition with confidence.
+- **Random**: Python's standard library to choose random comments.
